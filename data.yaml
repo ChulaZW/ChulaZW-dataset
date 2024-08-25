@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['can', 'dirty food container', 'filled plastic bag', 'food container', 'milk carton', 'paper bag', 'plastic bag', 'plastic bottle', 'plastic cup', 'plastic cutlery', 'snack packaging', 'sticks', 'straw', 'tissue paper', 'zero waste cup']
+
+roboflow:
+  workspace: waste-separation-ncmkj
+  project: waste-separation-t1vg9
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/waste-separation-ncmkj/waste-separation-t1vg9/dataset/9
